@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[portfolio-page](public/preview.png)
+![portfolio-page](public/preview.png)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ This repository will house the successor to both the [front-end](https://github.
     - Vercel is created as a hosting platform for NEXTJs project by, well, the people who created NEXTJs. It not allows hobbyist-tier hosting but it allows us to take full advantage of NEXTJs projects features, unlike github pages. Furthermore, it also acts as a CI?CD pipeline right out of the box, very useful.
 
 ## When will this be done ?
-    The short answer is I have no idea. 
+   The short answer is I have no idea. 
 
-    The somewhat longer answer is that I have no idea because beyond copy pasting my code, I need to ensure the code functions as is without any issues as well as improving old portions of my code. So yea.
+   The somewhat longer answer is that I have no idea because beyond copy pasting my code, I need to ensure the code functions as is without any issues as well as improving old portions of my code. So yea.
 
