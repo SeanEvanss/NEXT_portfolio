@@ -1,0 +1,20 @@
+#huge {
+    border: 0px solid yellow;
+}
+
+#text_1 {
+    margin-top: 10px;
+}
+
+#mainText {
+    border: 0px solid yellow;
+}
+
+#mainText em {
+    border: 0px solid yellow;
+    color: rgb(58, 74, 211);
+}
+
+#profile {
+    border: 0px;
+}
