@@ -1,11 +1,7 @@
 import React, { useEffect } from 'react'
-import { feedCards } from './data';
-import "./styles/Landing.css"
-
+import { feedCards } from '../../data/data.js';
 
 export default function Feed() {
-
-    
 
     //Function that allows us to use end of lines in our text for formatting.
     function NewLineText(props){
@@ -14,8 +10,8 @@ export default function Feed() {
         return lines;
     }
 
-
     return (
+        /*
         <section id="feed" >
             <div id="landing_div" className="flex flex-col justify-center items-center mx-auto">
                 <h1 className='text-pure_white p-10'>
@@ -42,5 +38,7 @@ export default function Feed() {
 
             </div>
         </section>
+        */
+       <div></div>
     )
 }

@@ -1,13 +1,5 @@
-import vesp from "./resources/vespertine.gif"
-import cursing from "./resources/cursing.gif"
-import scrapper from "./resources/new_scraper.gif"
-import flappy from "./resources/flappy.gif"
-import webrtc from "./resources/webrtc.gif"
-
-import post1 from "./resources/background.jpeg"
-import post2 from "./resources/post2.jpg"
-
-
+//import post1 from "./resources/background.jpeg"
+//import post2 from "./resources/post2.jpg"
 export const skills = [
     "C/C++", "Java",
     "ReactJS", "NodeJS+Express",
@@ -62,6 +54,7 @@ export const projects = [
 ];
 
 //This will eventually be from a backend database
+/*
 export const feedCards=[
     {
         title: "What's this page about",
@@ -83,4 +76,5 @@ export const feedCards=[
     }
 
 ];
+*/
 

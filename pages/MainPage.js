@@ -5,8 +5,8 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import About from './components/About';
 //import "./App.css"
-import gsap from 'gsap';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { gsap } from 'gsap/dist/gsap';
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 
 

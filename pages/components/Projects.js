@@ -1,5 +1,5 @@
 import React from 'react'
-import { projects } from './data';
+import { projects } from '../../data/data.js';
 import { CodeIcon } from "@heroicons/react/solid";
 //import "./styles/Projects.css"
 
