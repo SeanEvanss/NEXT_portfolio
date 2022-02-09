@@ -22,7 +22,7 @@ export const projects = [
         title: "Vespertine",
         subtitle: "Android Studio, Java",
         description: "An Android application consuming data.gov and Google API. Focused on nightlife functions such as displayng all nearby taxis locations as well as parking lots left",
-        image_link: vesp,
+        image_link: "/vespertine.gif",
         link: "https://github.com/SeanEvanss/Vespertine",
         key:0
     },
@@ -30,7 +30,7 @@ export const projects = [
         title: "Web scraper",
         subtitle: "NodeJS, ExpressJS, Axios",
         description: "A web scapper script I wrote using NodeJS that will be hooked into a database (eventually). Currently WIP.",
-        image_link: scrapper,
+        image_link: "/new_scraper.gif",
         link: "https://github.com/SeanEvanss/nodejs_web_scrapper",
         key:1
     },
@@ -38,7 +38,7 @@ export const projects = [
         title: "Cursing detection",
         subtitle: "Python, Mediapipe",
         description: "A Simple Python application making use of the Mediapipe library. The script is able to detect when a certain offensive gesture is made.",
-        image_link: cursing,
+        image_link: "/cursing.gif",
         link: "https://github.com/SeanEvanss/Cursing-finger-detection",
         key:2
     },
@@ -46,7 +46,7 @@ export const projects = [
         title: "NEAT Flappy bird",
         subtitle: "Python, pygame, NEAT",
         description: "A python script showing how a neural evolutionary network (NEAT) can be applied. We demonstrate the utility of the NEAT library with flappy bird created with pygame.",
-        image_link: flappy,
+        image_link: "/flappy.gif",
         link: "https://github.com/SeanEvanss/flappy_bird_NEAT",
         key:3
     },
@@ -54,7 +54,7 @@ export const projects = [
         title: "WebRTC- P2P video chat app",
         subtitle: "NextJS, WebRTC, Firebase",
         description: "A web application that allows users to chat with each other using WebRTC. The application is built using NextJS with Firebase acting as the signaling server.",
-        image_link: webrtc,
+        image_link: "/webrtc.gif",
         link: "https://github.com/SeanEvanss/NEXT-rtc",
         key:4
 

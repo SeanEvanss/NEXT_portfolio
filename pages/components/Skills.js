@@ -37,7 +37,7 @@ export default function Skills() {
                         Skills &amp; Frameworks
                     </h1>
                 </div>
-                <p className="text-center leading-relaxed">
+                <p className="text-center leading-relaxed text-pure_white">
                     My skill set spans across SWE (my main focus), but I also have a lot of experience with other technologies such as deep learning, mobile dev and web dev.
                     
                 </p>

@@ -27,7 +27,7 @@ export default function Projects() {
                         {projects.map((project) => (
                             <a href={project.link} key={project.key} className="md:w-1/2 p-4">
                                 <div className="flex relative h-60">
-                                    <img alt="loading..." className="absolute inset-0 w-full h-full aspect-w-16 aspect-h-9 object-cover object-center" src={project.image_link} />
+                                    <img alt="loading..." className="absolute inset-0 w-full h-full aspect-w-16 aspect-h-9 object-cover object-center" src= {project.image_link} />
                                     <div className="px-2 md:px-10 py-4 md:py-8 relative z-5 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-90 hover:opacity-0">
                                         <h2 className="text-custom_orange text-xs md:text-base">
                                             {project.subtitle}
@@ -35,7 +35,7 @@ export default function Projects() {
                                         <h1 className="title-font text-xs md:text-lg font-medium text-white mb-3">
                                             {project.title}
                                         </h1>
-                                        <p className="leading-relaxed text-xs md:text-base">
+                                        <p className="leading-relaxed text-xs md:text-base text-pure_white">
                                             {project.description}
                                         </p>
                                     </div>

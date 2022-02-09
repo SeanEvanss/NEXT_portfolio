@@ -2,6 +2,8 @@ import styles from '../styles/Home.module.css'
 import React from 'react'
 import About from './components/About'
 import Landing from './components/Landing'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
     <main className='text-gray-400 body-font ' className={styles.main}>
       <Landing />
       <About/>
+      <Skills/>
+      <Projects/>
     </main>
     </html>
   )

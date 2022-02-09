@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { SocialIcon } from 'react-social-icons';
 //import "./styles/ScrollMagic.css"
-import Profile from './resources/profile.jpeg';
-
 import { gsap } from 'gsap/dist/gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -127,14 +125,16 @@ export default function About() {
 
                     <div id="buttons_1" className="flex justify-center mt-8">
                         <a href="#contact"
-                            className="inline-flex text-pure_white bg-custom_orange border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+                            className="inline-flex bg-custom_orange border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg shadow-lg shadow-custom_orange/70 hover:shadow-custom_orange/50">
+                            <h1 className="text-pure_white hover:text-gray-300">
                             Work With Me
+                            </h1>
                         </a>
                         <a href="#projects"
-                            className="ml-4 inline-flex text-pure_white bg-custom_dark_blue border-0 py-2 px-6 focus:outline-none hover:bg-custom_light_blue hover:text-white rounded text-lg">
+                            className="ml-4 inline-flex text-pure_white bg-custom_dark_blue border-0 py-2 px-6 focus:outline-none hover:bg-custom_light_blue hover:text-white rounded text-lg shadow-lg shadow-custom_light_blue/70">
                             See My Past Work
                         </a>
-                        <SocialIcon url='https://www.linkedin.com/in/sean-tang-s96/' className='ml-4 inline-flex' />
+                        <SocialIcon url='https://www.linkedin.com/in/sean-tang-s96/' fgColor="white" className="ml-4 inline-flex shadow-md" />
                     </div>
                 </div>
                 <div id="profile" className="lg:max-w-lg md:w-1/3 lg:mt-5 sm:w-1/4 w-5/6 flex flex-col text-center">
