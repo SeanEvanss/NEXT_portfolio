@@ -50,7 +50,7 @@ export default function Contact() {
                     <h2 className="text-gray-200 sm:text-4xl text-3xl mb-5 font-medium title-font" >
                         Contact me
                     </h2>
-                    <p className="text-center"> 
+                    <p className="text-center text-pure_white"> 
                         Thanks for taking the time to reach out! I always appreciate any opportunities or even potential collaborations.
                         <br />
                         Feel free to drop your contact info and message below and I will get back to you as soon as I can.
@@ -88,7 +88,7 @@ export default function Contact() {
                             onChange={(e) => { setMessage(e.target.value) }} />
 
                     </div>
-                    <button type="submit" className="py-2 px-4 rounded text-xl hover:bg-gray-900 hover:text-white focus:outline-none">
+                    <button type="submit" className="py-2 px-4 rounded text-xl text-pure_white bg-gray-500 hover:bg-gray-900 hover:text-gray-500 focus:outline-none">
                         Submit
                     </button>
                 </form>

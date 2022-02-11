@@ -4,6 +4,7 @@ import About from './components/About'
 import Landing from './components/Landing'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Conact from './components/Contact'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About/>
       <Skills/>
       <Projects/>
+      <Conact/>
     </main>
     </html>
   )
