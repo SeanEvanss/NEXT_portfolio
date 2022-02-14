@@ -31,7 +31,7 @@ export default function MainPage() {
       console.log(ref);
     }
   };
-
+  
   useEffect(() => {
     revealRefs.current.forEach(ref => {
       gsap.fromTo(
@@ -58,7 +58,7 @@ export default function MainPage() {
   return (
     <section id="main">
       {sections.map((section) => (
-        <div ref={addToRefs}>
+        <div ref={addToRefs} key={section}>
           {section}
         </div>
       ))}

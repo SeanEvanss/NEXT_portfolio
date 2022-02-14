@@ -1,6 +1,5 @@
 import React from 'react'
 import { ArrowRightIcon } from '@heroicons/react/solid'
-import { Link } from 'react-router-dom'
 import { Link as LinkScroller, animateScroll as scroll } from "react-scroll";
 
 export default function Navbar() {
@@ -14,6 +13,7 @@ export default function Navbar() {
                         Sean Tang
                     
                 </div>
+                {/* 
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-5 flex flex-wrap flex-row items-center justify-center mb-4 md:mb-0">
                     <LinkScroller
                         to="skills"
@@ -44,12 +44,11 @@ export default function Navbar() {
                         offset={-100}
                         className=" text-gray-300 hover:text-pure_white mr-5">
                         Contact
-                    </LinkScroller>
-                    
-                    
-                </nav>
+                    </LinkScroller>                                        
+                </nav>*/}
+                <div className="md:mr-auto md:ml-4 md:py-1 md:pl-5 flex flex-wrap flex-row items-center justify-center mb-4 md:mb-0"/>
         
-                <a href="https://github.com/SeanEvanss/react_portfolio_site"
+                <a href="https://github.com/SeanEvanss/NEXT_portfolio"
                     className="inline-flex items-center bg-custom_gray border-0 text-pure_white py-1 px-3 focus:outline-none hover:bg-custom_beige rounded text-base mb-4 md:mb-0 hover:text-gray-400 mr-5">
                     See how this site was made
                     <ArrowRightIcon className="w-4 h-4 ml-1" />

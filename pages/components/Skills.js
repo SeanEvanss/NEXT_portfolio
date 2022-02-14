@@ -14,7 +14,7 @@ export default function Skills() {
         gsap.from(
             currElement.querySelector("#main_skill"),
             {   
-                y: 50,      
+                x: 50,      
                 duration:3,
                 opacity:0,
                 delay: 0,
