@@ -15,11 +15,11 @@ export default function MainPage() {
   gsap.registerPlugin(ScrollTrigger);
   //Array containing all the components that we created
   const sections = [
-    //<Landing/>,
+    <Landing/>,
     <About/>,
-    //<Skills/>,
-    //<Projects/>,
-    //<Contact/>
+    <Skills/>,
+    <Projects/>,
+    <Contact/>
   ];
 
   const revealRefs= useRef([]);

@@ -5,17 +5,16 @@ import Landing from './components/Landing'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Conact from './components/Contact'
+import Navbar from './components/Navbar'
+import MainPage from './MainPage'
 
 
 export default function Home() {
   return (
     <html className='bg-custom_gray'>    
     <main className='text-gray-400 body-font ' className={styles.main}>
-      <Landing />
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Conact/>
+      <Navbar/>
+      <MainPage/>      
     </main>
     </html>
   )
