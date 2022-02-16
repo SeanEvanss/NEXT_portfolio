@@ -29,7 +29,7 @@ export default function Skills() {
     }, [])
 
     return (
-        <section id="skills" ref={ref}>
+        <section id="skills" ref={ref}  style={{backgroundColor:"red"}}>
             <div className="container px-20 py-10 mx-auto">
                 <div className="text-center mb-10">
                     <ChipIcon className="w-20 text-gray-200 inline-block mb-4" />

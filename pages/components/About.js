@@ -105,7 +105,7 @@ export default function About() {
     return (
         <section id="ScrollMagic" ref={ref}>
 
-            <div className="container mx-auto px-10 py-10 flex md:flex-row flex-col items-center">
+            <div className="container mx-auto px-10 pb-20 flex md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <div id="main_trigger">
                         <h1 id="text_1" className="title-font lg:text-6xl text-3xl font-medium text-white">
