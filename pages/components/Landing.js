@@ -30,7 +30,7 @@ export default function Landing() {
             <div id="landing_div" className="flex flex-col h-screen justify-center items-center">
                 <div id="landing_content" className="container mx-auto flex px-10 py-8 flex-col items-center justify-center content-center">
                     <div  className="flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center justify-center m-auto">
-                        <h1 id="landing_words" className="font-serif lg:text-9xl lg:pb-4 text-xl font-medium text-center" style={{ fontSize: "200px" }}>
+                        <h1 id="landing_words" className="font-serif lg:text-9xl lg:pb-4 text-xl font-medium text-center leading-tight" style={{ fontSize: "200px" }}>
                             SEAN TANG
                         </h1>
                         <h2 id="landing_subtitle" className='font-serif lg:text-3xl text-pure_white'>

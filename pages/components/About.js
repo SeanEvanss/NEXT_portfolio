@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { SocialIcon } from 'react-social-icons';
-//import "./styles/ScrollMagic.css"
+import Image from 'next/image';
 import { gsap } from 'gsap/dist/gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -105,7 +105,7 @@ export default function About() {
     return (
         <section id="ScrollMagic" ref={ref}>
 
-            <div className="container mx-auto px-10 pb-20 flex md:flex-row flex-col items-center">
+            <div className="container mx-auto h-screen px-10 pb-20 flex md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <div id="main_trigger">
                         <h1 id="text_1" className="title-font lg:text-6xl text-3xl font-medium text-white">
@@ -137,12 +137,16 @@ export default function About() {
                         <SocialIcon url='https://www.linkedin.com/in/sean-tang-s96/' fgColor="white" className="ml-4 inline-flex shadow-md" />
                     </div>
                 </div>
-                <div id="profile" className="lg:max-w-lg md:w-1/3 lg:mt-5 sm:w-1/4 w-5/6 flex flex-col text-center">
-                    <img
+                <div id="profile" className="lg:max-w-lg md:w-1/3 lg:mt-5 sm:w-1/4 w-5/6 flex flex-col text-center" >                    
+                    <div>
+                    <Image
                         className="object-cover object-center rounded"
+                        width="100%"
+                        height="100%"
+                        layout= 'responsive'
                         alt="Profile pic loading..."
-                        src="/profile.jpeg"
-                    />
+                        src="/profile.jpeg"/>                                        
+                    </div>                    
                     <text className="text-pure_white">
                         (This is how I look, just with, well, black hair)
                     </text>
