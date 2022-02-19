@@ -2,6 +2,7 @@ import React from 'react'
 import { projects } from '../../data/data.js';
 import { CodeIcon } from "@heroicons/react/solid";
 //import "./styles/Projects.css"
+import Image from 'next/image';
 
 
 export default function Projects() {
@@ -27,7 +28,14 @@ export default function Projects() {
                         {projects.map((project) => (
                             <a href={project.link} key={project.key} className="md:w-1/2 p-4">
                                 <div className="flex relative h-60">
-                                    <img alt="loading..." className="absolute inset-0 w-full h-full aspect-w-16 aspect-h-9 object-cover object-center" src= {project.image_link} />
+                                    {/*<img alt="loading..." className="absolute inset-0 w-full h-full aspect-w-16 aspect-h-9 object-cover object-center" src= {project.image_link} /> */}
+                                    <div className="absolute inset-0 w-full h-full aspect-w-16 aspect-h-9 object-cover object-center">
+                                        <Image 
+                                        alt="loading..." 
+                                        layout="fill" 
+                                        objectFit='cover'
+                                        src={project.image_link}/>
+                                    </div>
                                     <div className="px-2 md:px-10 py-4 md:py-8 relative z-5 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-90 hover:opacity-0">
                                         <h2 className="text-custom_orange text-xs md:text-base">
                                             {project.subtitle}
