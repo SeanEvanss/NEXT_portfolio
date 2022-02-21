@@ -125,13 +125,13 @@ export default function About() {
 
                     <div id="buttons_1" className="flex justify-center mt-8">
                         <a href="#contact"
-                            className="inline-flex bg-custom_orange border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg shadow-lg shadow-custom_orange/70 hover:shadow-custom_orange/50">
-                            <h1 className="text-pure_white hover:text-gray-300">
+                            className="transition ease-in-out delay-150 inline-flex bg-custom_orange border-0 py-2 px-6 focus:outline-none hover:bg-yellow-500 rounded text-lg shadow-lg shadow-custom_orange/70 hover:shadow-custom_orange/50 hover:scale-110">
+                            <h1 className="text-pure_white ">
                             Work With Me
                             </h1>
                         </a>
                         <a href="#projects"
-                            className="ml-4 inline-flex text-pure_white bg-custom_dark_blue border-0 py-2 px-6 focus:outline-none hover:bg-custom_light_blue hover:text-white rounded text-lg shadow-lg shadow-custom_light_blue/70">
+                            className="transition ease-in-out delay-150 ml-4 inline-flex text-pure_white bg-custom_dark_blue border-0 py-2 px-6 focus:outline-none hover:bg-custom_light_blue hover:text-white rounded text-lg shadow-lg shadow-custom_light_blue/70 hover:scale-110">
                             See My Past Work
                         </a>
                         <SocialIcon url='https://www.linkedin.com/in/sean-tang-s96/' fgColor="white" className="ml-4 inline-flex shadow-md" />
@@ -144,6 +144,7 @@ export default function About() {
                         width="100%"
                         height="100%"
                         layout= 'responsive'
+                        priority={true}
                         alt="Profile pic loading..."
                         src="/profile.jpeg"/>                                        
                     </div>                    

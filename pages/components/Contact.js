@@ -39,13 +39,20 @@ export default function Contact() {
         e.target.reset();
     }
 
+    const triggerTestSubmit= async(e) => {
+        e.preventDefault();
+        const response= await fetch("/api/response");
+        const data= await response.json();
+        console.log(data);
+    }
+
     return (
         <section id="contact">
             <div className="container mx-auto px-5 py-5 flex justify-center">
                 <form
                     className="lg:w-2/3 md:w-1/2 flex flex-col w-full md:py-8 mt-8 md:mt-0 items-center"
                     title="form"
-                    onSubmit={handleSubmit}>
+                    onSubmit={triggerTestSubmit}>
                     <InboxIcon className="w-20 text-gray-200" />
                     <h2 className="text-gray-200 sm:text-4xl text-3xl mb-5 font-medium title-font" >
                         Contact me
@@ -88,7 +95,7 @@ export default function Contact() {
                             onChange={(e) => { setMessage(e.target.value) }} />
 
                     </div>
-                    <button type="submit" className="py-2 px-4 rounded text-xl text-pure_white bg-gray-500 hover:bg-gray-900 hover:text-gray-500 focus:outline-none">
+                    <button type="submit" className="transition ease-in-out delay-150 py-2 px-4 rounded text-xl text-pure_white bg-gray-500 hover:bg-gray-900 hover:text-gray-500 hover:scale-110 focus:outline-none">
                         Submit
                     </button>
                 </form>

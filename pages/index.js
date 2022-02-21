@@ -6,8 +6,8 @@ import MainPage from './MainPage'
 
 export default function Home() {
   return (
-    <html className='bg-custom_gray'>    
-    <main className='text-gray-400 body-font ' className={styles.main}>
+    <html className='bg-custom_gray w-screen'>    
+    <main className='text-gray-400 body-font w-full' className={styles.main}>
       <Navbar/>
       <MainPage/>      
     </main>
