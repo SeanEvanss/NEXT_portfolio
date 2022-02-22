@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { feedCards } from '../../data/data.js';
+import Navbar from './Navbar.js';
 
 export default function Feed() {
 
@@ -11,8 +12,9 @@ export default function Feed() {
     }
 
     return (
-        /*
+        
         <section id="feed" >
+            <Navbar/>
             <div id="landing_div" className="flex flex-col justify-center items-center mx-auto">
                 <h1 className='text-pure_white p-10'>
                     This is the Feed Page<br />
@@ -37,8 +39,6 @@ export default function Feed() {
                 </div>
 
             </div>
-        </section>
-        */
-       <div></div>
+        </section>               
     )
 }

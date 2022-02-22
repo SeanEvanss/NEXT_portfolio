@@ -54,11 +54,11 @@ export const projects = [
 ];
 
 //This will eventually be from a backend database
-/*
+
 export const feedCards=[
     {
         title: "What's this page about",
-        image: post1,
+        image: "/background.jpeg",
         upload_time:"13-01-2021 01:30am",
         description: "So why ruin a single page application with another page ? \n"
         +" Well I realised that I wanted an easy way to update people about what projects I'm currently working on for both software and non software projects."
@@ -66,7 +66,7 @@ export const feedCards=[
     },
     {
         title: "This has been a fun week...",
-        image: post2,
+        image: "/post2.jpg",
         upload_time:"16-01-2021 04:54am",
         description: "This has been a fun week. \n"+
         "For those that are unaware, I have a few projects that I'm working on various platforms and one of these projects "+
@@ -76,5 +76,4 @@ export const feedCards=[
     }
 
 ];
-*/
 
