@@ -1,6 +1,5 @@
 import React from 'react'
 import { ArrowRightIcon } from '@heroicons/react/solid'
-//import { Link as LinkScroller, animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 
@@ -38,13 +37,8 @@ export default function Navbar() {
                             Feed page
                         </a>
                     </Link>
-
                 </div>
-
-
-
                 <div className="md:mr-auto md:ml-4 md:py-1 md:pl-5 flex flex-wrap flex-row items-center justify-center mb-0" />
-
                 <a href="https://github.com/SeanEvanss/NEXT_portfolio"
                     className="transition ease-in-out delay-100 inline-flex items-center bg-custom_gray border-0 text-pure_white py-1 px-3 focus:outline-none hover:bg-custom_beige hover:scale-125 rounded text-base mb-0 hover:text-gray-400 mr-5">
                     See how this site was made
