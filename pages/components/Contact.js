@@ -41,9 +41,21 @@ export default function Contact() {
 
     const triggerTestSubmit= async(e) => {
         e.preventDefault();
-        const response= await fetch("/api/response");
+
+        const requestOptions = {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json',
+                'apikey': process.env.REACT_APP_API_KEY,
+            },
+            body: JSON.stringify({ name, email, message })
+        };
+
+        const response= await fetch("/api/message", requestOptions);
         const data= await response.json();
         console.log(data);
+        e.target.reset();
     }
 
     return (
