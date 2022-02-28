@@ -11,8 +11,17 @@ export default function Feed() {
         return lines;
     }
 
-    return (
-        
+    const getFeed = async(e) =>{        
+        const response= await fetch("/api/redisFeed");
+        console.log(response);
+        const data= await response.json();
+    }
+
+    useEffect(() => {
+        getFeed();
+    },[]);
+
+    return (        
         <section id="feed" >
             <Navbar/>
             <div id="landing_div" className="flex flex-col justify-center items-center mx-auto">
