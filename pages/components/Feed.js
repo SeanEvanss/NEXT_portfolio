@@ -12,7 +12,7 @@ export default function Feed() {
     }
 
     const getFeed = async(e) =>{        
-        const response= await fetch("/api/redisFeed");
+        const response= await fetch("/api/getRedisFeed");
         console.log(response);
         const data= await response.json();
     }
