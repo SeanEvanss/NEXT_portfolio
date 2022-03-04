@@ -17,7 +17,7 @@ export default function Navbar() {
                     </Link>
                 </div>
                 <div className="md:mr-auto md:ml-4 md:py-1 md:pl-5 flex flex-wrap flex-row items-center justify-center mb-0">
-                    <Link href="/#skills" scroll={true}>
+                    <Link href="#skills" scroll={true}>
                         <a className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
                             Skills
                         </a>

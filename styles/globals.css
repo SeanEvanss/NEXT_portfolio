@@ -19,3 +19,18 @@ a {
 * {
     box-sizing: border-box;
 }
+
+
+/*This is here to solve the issue of the navbar height not bring taken into account*/
+
+
+/*We declare a specfic height to push the content down and then have a negative margin to absorb the excess*/
+
+section::before {
+    display: block;
+    content: "";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
