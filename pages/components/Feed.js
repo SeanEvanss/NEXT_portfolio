@@ -31,7 +31,7 @@ export default function Feed() {
                 </h1>
                 <div className="flex flex-wrap md:w-1/2 w-2/3">
                 {feedCards.map((card) => (
-                    <div className='relative h-50 bg-pure_white p-8 rounded-md mb-10'>                        
+                    <div key={card.title}  className='relative h-50 bg-pure_white p-8 rounded-md mb-10'>                        
                         <h1 className='text-custom_orange text-xl font-bold'>
                             {card.title}
                         </h1>
