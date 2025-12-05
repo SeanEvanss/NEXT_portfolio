@@ -3,7 +3,7 @@ import { feedCards } from '../../data/data.js';
 import Navbar from './Navbar.js';
 
 export default function Feed() {
-    const data = null;
+    let data = null;
     const [loaded, setLoaded] = useState(false);
     const [feedData, setFeedData] = useState();
     //Function that allows us to use end of lines in our text for formatting.
