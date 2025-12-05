@@ -141,8 +141,9 @@ export default function About() {
                     <div>
                     <Image
                         className="object-cover object-center rounded"
-                        width="100%"
-                        height="100%"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
                         layout= 'responsive'
                         priority={true}
                         alt="Profile pic loading..."

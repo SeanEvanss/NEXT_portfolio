@@ -6,36 +6,47 @@ import { useRouter } from 'next/router';
 export default function Navbar() {
     const router = useRouter();
     return (
-
         <header className="bg-pure_black md:sticky top-0 z-10 shadow-xl shadow-custom_orange/80 hover:shadow-xl hover:shadow-custom_orange/50">
             <div className="flex xl:p-6 p-3 flex-row items-center ">
                 <div className="mr-4 md:mb-0">
-                    <Link href="/" scroll={true}>
-                        <a className="transition ease-in-out delay-100 title-font font-medium text-xl text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                    <Link
+                        href="/"
+                        scroll={true}
+                        className="transition ease-in-out delay-100 title-font font-medium text-xl text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                        
                             Sean Tang
-                        </a>
+                        
                     </Link>
                 </div>
                 <div className="md:mr-auto md:ml-4 md:py-1 md:pl-5 flex flex-wrap flex-row items-center justify-center mb-0">
-                    <Link href="#skills" scroll={true}>
-                        <a className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                    <Link
+                        href="#skills"
+                        scroll={true}
+                        className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                        
                             Skills
-                        </a>
+                        
                     </Link>
-                    <Link href="#projects" scroll={true}>
-                        <a className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                    <Link
+                        href="#projects"
+                        scroll={true}
+                        className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                        
                             Projects
-                        </a>
+                        
                     </Link>
-                    <Link href="#contact" scroll={true}>
-                        <a className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                    <Link
+                        href="#contact"
+                        scroll={true}
+                        className="transition ease-in-out delay-100 text-pure_white mr-5 shadow-xl shadow-custom_dark_blue/60 hover:shadow-custom_light_blue/90 hover:scale-110">
+                        
                             Contact
-                        </a>
+                        
                     </Link>
-                    <Link href="/components/Feed" >
-                        <a className="text-pure_white ml-10">
+                    <Link href="/components/Feed" className="text-pure_white ml-10">
+                        
                             Feed page
-                        </a>
+                        
                     </Link>
                 </div>
                 <div className="md:mr-auto md:ml-4 md:py-1 md:pl-5 flex flex-wrap flex-row items-center justify-center mb-0" />
@@ -46,6 +57,6 @@ export default function Navbar() {
                 </a>
             </div>
         </header>
-    )
+    );
 
 }
